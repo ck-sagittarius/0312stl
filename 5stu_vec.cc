@@ -41,18 +41,18 @@ int main(int argc,char**argv)
 	}
 	vector<stu>::iterator it=arr.begin();
 	vector <string> arr_name;
-	int cnt=0;
-	for(;it!=arr.end();++it)
-	{
-		if((*it).score>=60)
-		{
-			++cnt;
-			arr_name.push_back((*it).name);
-			(*it).show();
-			//std::cout<<(*it).name<<std::endl;
-		}
-	}
-	std::cout<<"及格人数:"<<cnt<<std::endl;
+	//int cnt=0;
+	//for(;it!=arr.end();++it)
+	//{
+	//	if((*it).score>=60)
+	//	{
+	//		++cnt;
+	//		arr_name.push_back((*it).name);
+	//		(*it).show();
+	//		//std::cout<<(*it).name<<std::endl;
+	//	}
+	//}
+	//std::cout<<"及格人数:"<<cnt<<std::endl;
 	return 0;
 
 }
