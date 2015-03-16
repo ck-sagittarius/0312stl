@@ -33,7 +33,7 @@ int main(int argc,char**argv)
 		
 		std::cout<<s<<std::endl;
 		iss<<s;
-		std::cout<<iss.str()<<std::endl;
+	//	std::cout<<iss.str()<<std::endl;
 		iss>>stu1.name;
 		iss>>stu1.score;
 		iss.clear();
